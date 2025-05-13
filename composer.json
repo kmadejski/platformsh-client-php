@@ -6,7 +6,7 @@
         "php": ">=8.2",
         "cocur/slugify": "^3.0",
         "guzzlehttp/guzzle": "^7 || ^8",
-        "platformsh/oauth2": "^1.0.0@beta",
+        "platformsh/oauth2": "^1.0.0",
         "ext-json": "*",
         "khill/php-duration": "^1.1"
     },
@@ -29,6 +29,12 @@
             "name": "Patrick Dawkins"
         }
     ],
+    "repositories": {
+        "platformsh/oauth2": {
+            "type": "vcs",
+            "url": "https://github.com/kmadejski/platformsh-client-php"
+        }
+    },
     "config": {
         "platform": {
             "php": "8.2"
